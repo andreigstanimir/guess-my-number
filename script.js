@@ -46,6 +46,7 @@ const checkNumber = function () {
       score--;
       scoreEl.textContent = score;
       displayMessage(guess > secretNumber ? "📈 Too high!" : "📉 Too low!");
+      inputEl.focus();
     } else {
       score--;
       scoreEl.textContent = score;
