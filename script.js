@@ -21,8 +21,6 @@ const displayMessage = function (message) {
 };
 
 const checkNumber = function () {
-  console.log(secretNumber);
-
   const guess = Number(inputEl.value);
 
   //   When there is no input
